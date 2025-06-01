@@ -18,7 +18,7 @@ body {
   height: 550px;
   width: 70vh;
   background-color: rgb(37, 36, 36);
-  top: 30px;
+  top: 60px;
   border-radius: 10px;
   border: 2px solid white;
 }
@@ -39,6 +39,7 @@ body {
 .display {
     width: 100%;
     height: auto;
+    overflow: hidden;
     min-height: 120px;
   border: 2px solid white;
   height: 40%;
