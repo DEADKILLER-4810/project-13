@@ -79,6 +79,11 @@ button:hover{
   transition: 0.2s ease-in-out;
 }
 
+button:active{
+  background-color: rgb(86, 66, 66);
+  transition: 0.2s ease-in-out;
+}
+
 input{
   margin-top: 11%;
      font-size: 5vw;
