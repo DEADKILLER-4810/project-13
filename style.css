@@ -18,7 +18,7 @@ body {
   height: 550px;
   width: 70vh;
   background-color: rgb(37, 36, 36);
-  top: 0px;
+  top: 30px;
   border-radius: 10px;
   border: 2px solid white;
 }
@@ -37,8 +37,10 @@ body {
 }
 
 .display {
+    width: 100%;
+    height: auto;
+    min-height: 120px;
   border: 2px solid white;
-  width: auto;
   height: 40%;
   position: relative;
   /* border-radius: 10px; */
@@ -77,6 +79,10 @@ button:hover{
 }
 
 input{
+     font-size: 5vw;
+    width: 95%;
+    padding: 10px;
+    text-align: right;
   background: none;
   height: auto;
   width: 98%;
